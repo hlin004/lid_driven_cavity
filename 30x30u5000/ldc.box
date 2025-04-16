@@ -1,0 +1,12 @@
+-2                     spatial dimension (will create box.re2)
+1                      number of fields
+#
+#    comments: lid driven cavity
+#
+#========================================================
+#
+Box                                       ldc
+-30 -30                                  Nelx  Nely
+0.0 1.0 1.0
+0.0 1.0 1.0
+W  ,W  ,W  ,v                             Velocity BC's:  (cbx0, cbx1, cby0, cby1)

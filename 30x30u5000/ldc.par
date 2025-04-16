@@ -1,0 +1,13 @@
+# Nek5000 parameter file
+[GENERAL]
+stopAt = endTime
+endTime  = 50
+dt = 1.0e-2
+variableDT = yes
+targetCFL = 0.4
+writeControl = runTime
+writeInterval = 1
+
+[VELOCITY]
+density = 1        #kg/m3
+viscosity = -5000   #Re
