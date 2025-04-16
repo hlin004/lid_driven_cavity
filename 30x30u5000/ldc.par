@@ -1,7 +1,7 @@
 # Nek5000 parameter file
 [GENERAL]
 stopAt = endTime
-endTime  = 50
+endTime  = 50 # need to extend time to match ref data
 dt = 1.0e-2
 variableDT = yes
 targetCFL = 0.4
